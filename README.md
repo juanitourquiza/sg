@@ -14,3 +14,12 @@ Esta realizado con:
   * Twig para el template;
 
   * Guzzle para consumir el API
+
+Pasos para instalar
+----------------------
+
+  * Realizar el clone del proyecto
+
+  * En consola ejecutar el comando "composer update" que instala las dependencias
+
+  * La ruta en el navegador: http://localhost/sg/web/app_dev.php/main 
