@@ -1,0 +1,9 @@
+{% extends "AppBundle:Layouts:layout.html.twig"%}
+{#% block content%#}
+{% block main %}    
+		<!-- Project One -->
+		<span class="glyphicon glyphicon-map-marker"></span> {{(lugar)}}
+		<p style="font-size:120px;">{{(climaActual.temperature)}}°</span></p>
+        <p>Humedad:{{(climaActual.humidity)}} &nbsp;&nbsp;Probabilidad de Lluvia:{{climaActual.precipProbability}}</p>
+        <p>{{(climaActual.summary)}}</p>
+{% endblock %}
